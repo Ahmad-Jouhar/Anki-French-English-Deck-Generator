@@ -11,13 +11,13 @@ You can choose between two versions:
 
 ## 🗂 Folder Structure
 
+Run either python file once to generate the 4 folders needed to use the program.
+
 Your project folder should look like this:
 
 ```
 
 French-Deck-Generator/
-
-│
 
 ├── input/          # Put your .csv files here
 
@@ -71,6 +71,8 @@ Comment ça va ? | How are you?
 
 ## 🚀 How to Use
 
+Run either python file once to generate the 4 folders needed to use the program.
+
 1. Place your `.csv` sheets in the **input** folder  
 2. Run one of the scripts (either by double-clicking or from the terminal)  
 3. The generated decks will appear in the **output** folder  
@@ -107,4 +109,5 @@ python generate_with_gtts.py
 - The program automatically prevents overwriting existing audio or decks.  
 - If a deck with the same name already exists, a warning will be made by the program and the file will stay in the input folder untouched.  
 - Each CSV generates its own `.apkg` deck with all related audio included.
+
 
