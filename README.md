@@ -94,7 +94,7 @@ python generate_with_pyttsx3.py
 
 - Requires an **internet connection**  
 - Audio sometimes sounds a bit **unnatural**  
-- May **freeze or stop** if too many requests are made  
+- May **freeze or stop** if there are too many audio files to generate  
 
 Run:
 
@@ -107,3 +107,4 @@ python generate_with_gtts.py
 - The program automatically prevents overwriting existing audio or decks.  
 - If a deck with the same name already exists, a warning will be made by the program and the file will stay in the input folder untouched.  
 - Each CSV generates its own `.apkg` deck with all related audio included.
+
