@@ -1,28 +1,17 @@
 # 🇫🇷 French Sentence Deck Generator
 
-
-
-This project lets you \*\*automatically create Anki decks\*\* with \*\*French sentences, English translations, and audio\*\*.  
+This project lets you **automatically create Anki decks** with **French sentences, English translations, and audio**.  
 
 You can choose between two versions:
 
-\- \*\*Local voice (pyttsx3)\*\* — Works offline using your system’s French voice  
-
-\- \*\*Online voice (gTTS)\*\* — Uses Google Translate TTS (more natural, but slower and rate-limited)
-
-
+- **Local voice (pyttsx3)** — Works offline using your system’s French voice  
+- **Online voice (gTTS)** — Uses Google Translate TTS (more natural, but slower and rate-limited)
 
 ---
 
-
-
-\## 🗂 Folder Structure
-
-
+## 🗂 Folder Structure
 
 Your project folder should look like this:
-
-
 
 ```
 
@@ -187,5 +176,6 @@ python generate\_with\_gtts.py
 \- If a deck with the same name already exists, a warning will be made by the program and file will stay in the input folder untouched.
 
 \- Each CSV generates its own `.apkg` deck with all related audio included.
+
 
 
