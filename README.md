@@ -1,4 +1,4 @@
-\# 🇫🇷 French Sentence Deck Generator
+# 🇫🇷 French Sentence Deck Generator
 
 
 
@@ -187,4 +187,5 @@ python generate\_with\_gtts.py
 \- If a deck with the same name already exists, a warning will be made by the program and file will stay in the input folder untouched.
 
 \- Each CSV generates its own `.apkg` deck with all related audio included.
+
 
