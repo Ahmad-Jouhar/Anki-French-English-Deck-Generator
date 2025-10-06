@@ -43,35 +43,29 @@ French-Deck-Generator/
 
 
 
-\## ⚙️ Setup
+
+---
+
+## ⚙️ Setup
+
+1. **Install Python 3.9 or later**  
+   - [Download here](https://www.python.org/downloads/)
+
+2. **Install dependencies**  
+
+```bash
+pip install pandas pyttsx3 gTTS genanki
+```
 
 
 
-1\. \*\*Install Python 3.9 or later\*\*
+3. **(For pyttsx3 only)**
 
-&nbsp;  - \[Download here](https://www.python.org/downloads/)
+Ensure you have a **French (France)** voice installed on your system (Windows example):
 
-
-
-2\. \*\*Install dependencies\*\*
-
-&nbsp;  ```bash
-
-&nbsp;  pip install pandas pyttsx3 gTTS genanki
-
-&nbsp;  ```
-
-
-
-3\. \*\*(For pyttsx3 only)\*\*  
-
-&nbsp;  Ensure you have a \*\*French (France)\*\* voice installed on your system (Windows example):
-
-&nbsp;  - Open \*\*Settings → Time \& Language → Speech\*\*
-
-&nbsp;  - Under \*\*Manage voices\*\*, click \*\*Add voices\*\*
-
-&nbsp;  - Choose \*\*French (France)\*\* and install it
+  - Open **Settings → Time \& Language → Speech**
+  - Under **Manage voices**, click **Add voices**
+  - Choose **French (France)** and install it
 
 
 
@@ -176,6 +170,7 @@ python generate\_with\_gtts.py
 \- If a deck with the same name already exists, a warning will be made by the program and file will stay in the input folder untouched.
 
 \- Each CSV generates its own `.apkg` deck with all related audio included.
+
 
 
 
